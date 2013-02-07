@@ -5,6 +5,7 @@ var popup = function() {
 	$("#close").click(function(){
 		$("#popup").hide();
 		$("#thanks").hide();
+		$("#popshow").show();
 	}); 
 
 	$("#placeorder").click(function(event){
@@ -15,27 +16,38 @@ var popup = function() {
 	$("#order").click(function(event){
 		event.preventDefault();
 		$("#popup").show();
+		$("#popshow").hide();
 	});
 
 	$("#email").click(function(event){
 		event.preventDefault();
 		$("#popup").show();
+		$("#popshow").hide();
 	});
 
 	$("#sendmsg").click(function(event){
 		event.preventDefault();
-		$("#popup").hide();
+		$("#thanks").show();
 	});
 
 	$("#find").click(function(event){
 		event.preventDefault();
 		$("#popup").show();
+		$("#popshow").hide();
 	});
 
 	$("#search").click(function(event){
 		event.preventDefault();
-		$("#popup").hide();
+		$("#thanks").show();
 	});
+};
+
+var ordercheck = function() {
+
+};
+
+var locationcheck = function() {
+
 };
 
 $(document).ready(function() {
@@ -43,7 +55,4 @@ $(document).ready(function() {
 });
 
 //make it when popup is opened, it makes the clicked text disappear, then when close is clicked it makes it reappear
-//make the bullets on the ul disappear
-//make the text input characters to 5
-//add pizza image to left of logo, add pasta image to the right of logo
 //make the order form use a select to get the item to order and the number
