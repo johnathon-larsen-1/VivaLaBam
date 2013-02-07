@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Viva La Bam! - Order Meal</title>
+</head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<body>
+	<div id="wrapper">
+		<div id="header"><img alt="Logo" src="logo.png" width="90%" height="25%" /></div>
+		<hr />
+		<div id="nav"><a href="index.html">Home</a> | <a href="order.html">Order</a> | <a href="locate.html">Find Store</a> | <a href="contact.html">Contact Us</a></div>
+		<div id="popup">
+			Item: 	<select name="Item">
+						<option value="" selected="selected">Select an Item</option>
+						<option value="">Pepperoni Pizza</option>
+						<option value="">Sausage Pizza</option>
+						<option value="">Bread Sticks</option>
+						<option value="">Cheese Sticks</option>
+					</select>
+			<br />
+			Amount: <input type="text" size="5" maxlength="5" value="" />
+			<br />
+			Total: $<input type="text" size="5" maxlength="10" value="" disabled>
+			<br />
+			<button id="close">Order</button>
+			<br />
+			<button id="close">Close</button>
+		</div>
+		<div id="content">
+			<p>Hungry?, <a id="order" href="#">Place An Order!</a></p>
+		</div>
+		<hr />
+		<div id="footer">Viva La Bam!</div>
+	</div>
+</body>
+</html>
