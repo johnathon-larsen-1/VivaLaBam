@@ -48,6 +48,11 @@ li {
 	font-size: 15px;
 }
 
+#thanks {
+	font-size: 36px;
+	color: #e8d004;
+}
+
 a:link {
 	color: white;
 	font-size: 25px;

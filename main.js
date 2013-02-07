@@ -1,9 +1,16 @@
 var popup = function() {
 	$("#popup").hide();
+	$("#thanks").hide();
 
 	$("#close").click(function(){
 		$("#popup").hide();
+		$("#thanks").hide();
 	}); 
+
+	$("#placeorder").click(function(event){
+		event.preventDefault();
+		$("#thanks").show();
+	});
 
 	$("#order").click(function(event){
 		event.preventDefault();
