@@ -9,7 +9,7 @@
 	<div id="wrapper">
 		<div id="header"><img alt="Logo" src="logo.png" width="90%" height="25%" /></div>
 		<hr />
-		<div id="nav"><a href="index.html">Home</a> | <a href="order.html">Order</a> | <a href="locate.html">Find Store</a> | <a href="contact.html">Contact Us</a></div>
+		<div id="nav"><a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a></div>
 		<div id="popup">
 			<form action="." method="POST">
 				Zip Code: <input type="text" id="zip" size="5" maxlength="5" value="" />
